@@ -97,7 +97,6 @@ public class BorrowingSlip {
         return false;
     }
 
-    @Override
     public String toString() {
         return slipId + " - " + borrower.getFullName() + " - Phong: " + teachingRoom
                 + " - Tong phi tre: " + calculateTotalLateFee();
