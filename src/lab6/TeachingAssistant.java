@@ -12,17 +12,14 @@ public class TeachingAssistant implements IBorrower {
         this.fullName = fullName;
     }
 
-    @Override
     public String getBorrowerId() {
         return borrowerId;
     }
 
-    @Override
     public String getFullName() {
         return fullName;
     }
 
-    @Override
     public int getMaximumDevices() {
         return 2;
     }
